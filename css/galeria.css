@@ -1,0 +1,43 @@
+.clitabla {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center; 
+	width: 95%;
+	/*padding-left: 20px;*/
+}
+.clitabla div{
+    width: 30%;
+}
+
+.clifila{
+	padding-top: 10px;
+	content: "";
+    clear: both;
+    display: table;
+	padding-bottom: 10px;
+`}
+        		
+/* JUSTIFY CONTENT ***************/
+
+.justify-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	width: 95%;	
+
+	/* también puede ser:
+        - flex-end: para alinear al final
+        - space-around: centrado y dejando espacio alrededor
+        - space-between: centrado y dejando espacio entre ellos
+    */
+}
+
+.justify-content div{
+    width: 30%;
+}
+/* COMUN *****/
+.comun{
+	/*font-size: 5rem; */
+    text-align: center;
+	padding: 1rem 0;
+}
